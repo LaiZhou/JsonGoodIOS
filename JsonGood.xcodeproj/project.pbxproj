@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79F8946E1DD1AA4B00376130 /* JsonGood.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F8946C1DD1AA4B00376130 /* JsonGood.h */; };
+		79F894E21DD1C4C200376130 /* JSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F894D31DD1C4C200376130 /* JSUtil.h */; };
+		79F894E31DD1C4C200376130 /* JSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F894D41DD1C4C200376130 /* JSUtil.m */; };
+		79F894E41DD1C4C200376130 /* JSJSONRequestEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F894D51DD1C4C200376130 /* JSJSONRequestEncoder.h */; };
+		79F894E51DD1C4C200376130 /* JSJSONRequestEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F894D61DD1C4C200376130 /* JSJSONRequestEncoder.m */; };
+		79F894E61DD1C4C200376130 /* JSJSONResponseDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F894D71DD1C4C200376130 /* JSJSONResponseDecoder.h */; };
+		79F894E71DD1C4C200376130 /* JSJSONResponseDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F894D81DD1C4C200376130 /* JSJSONResponseDecoder.m */; };
+		79F894E81DD1C4C200376130 /* JSRpcManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F894D91DD1C4C200376130 /* JSRpcManager.h */; };
+		79F894E91DD1C4C200376130 /* JSRpcManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F894DA1DD1C4C200376130 /* JSRpcManager.m */; };
+		79F894EA1DD1C4C200376130 /* JSRpcResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F894DB1DD1C4C200376130 /* JSRpcResult.h */; };
+		79F894EB1DD1C4C200376130 /* JSRpcResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F894DC1DD1C4C200376130 /* JSRpcResult.m */; };
+		79F894F41DD1C53700376130 /* Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F894F31DD1C53700376130 /* Dummy.m */; };
+		79F894F51DD1C53700376130 /* Dummy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79F894F21DD1C53700376130 /* Dummy.h */; };
+		79F894FD1DD2B97500376130 /* NSDictionary+JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F894F91DD2B97500376130 /* NSDictionary+JS.h */; };
+		79F894FE1DD2B97500376130 /* NSDictionary+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F894FA1DD2B97500376130 /* NSDictionary+JS.m */; };
+		79F894FF1DD2B97500376130 /* NSObject+JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F894FB1DD2B97500376130 /* NSObject+JS.h */; };
+		79F895001DD2B97500376130 /* NSObject+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F894FC1DD2B97500376130 /* NSObject+JS.m */; };
+		8672D787DDEF872F54E32A89 /* libPods-JsonGood.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D51FC4EA96CE0D8163BA20CE /* libPods-JsonGood.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79F894EE1DD1C53700376130 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				79F894F51DD1C53700376130 /* Dummy.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54C2975AD304AE15140A3D37 /* Pods-JsonGood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonGood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonGood/Pods-JsonGood.debug.xcconfig"; sourceTree = "<group>"; };
+		79F8946B1DD1AA4B00376130 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F8946C1DD1AA4B00376130 /* JsonGood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonGood.h; sourceTree = "<group>"; };
+		79F894D31DD1C4C200376130 /* JSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSUtil.h; sourceTree = "<group>"; };
+		79F894D41DD1C4C200376130 /* JSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSUtil.m; sourceTree = "<group>"; };
+		79F894D51DD1C4C200376130 /* JSJSONRequestEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSJSONRequestEncoder.h; sourceTree = "<group>"; };
+		79F894D61DD1C4C200376130 /* JSJSONRequestEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSJSONRequestEncoder.m; sourceTree = "<group>"; };
+		79F894D71DD1C4C200376130 /* JSJSONResponseDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSJSONResponseDecoder.h; sourceTree = "<group>"; };
+		79F894D81DD1C4C200376130 /* JSJSONResponseDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSJSONResponseDecoder.m; sourceTree = "<group>"; };
+		79F894D91DD1C4C200376130 /* JSRpcManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRpcManager.h; sourceTree = "<group>"; };
+		79F894DA1DD1C4C200376130 /* JSRpcManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRpcManager.m; sourceTree = "<group>"; };
+		79F894DB1DD1C4C200376130 /* JSRpcResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRpcResult.h; sourceTree = "<group>"; };
+		79F894DC1DD1C4C200376130 /* JSRpcResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRpcResult.m; sourceTree = "<group>"; };
+		79F894F01DD1C53700376130 /* libDummy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDummy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F894F21DD1C53700376130 /* Dummy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dummy.h; sourceTree = "<group>"; };
+		79F894F31DD1C53700376130 /* Dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dummy.m; sourceTree = "<group>"; };
+		79F894F91DD2B97500376130 /* NSDictionary+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JS.h"; sourceTree = "<group>"; };
+		79F894FA1DD2B97500376130 /* NSDictionary+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JS.m"; sourceTree = "<group>"; };
+		79F894FB1DD2B97500376130 /* NSObject+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JS.h"; sourceTree = "<group>"; };
+		79F894FC1DD2B97500376130 /* NSObject+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JS.m"; sourceTree = "<group>"; };
+		9290FE661C9A9D7C00D03DAE /* JsonGood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JsonGood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DBB2A2A62081AFA0AF86F5 /* Pods-JsonGood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonGood.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonGood/Pods-JsonGood.release.xcconfig"; sourceTree = "<group>"; };
+		D51FC4EA96CE0D8163BA20CE /* libPods-JsonGood.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JsonGood.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F894ED1DD1C53700376130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8672D787DDEF872F54E32A89 /* libPods-JsonGood.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9290FE621C9A9D7C00D03DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		053FD78E72CDF706ECABB51D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D51FC4EA96CE0D8163BA20CE /* libPods-JsonGood.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		485AD6D870395399011646DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54C2975AD304AE15140A3D37 /* Pods-JsonGood.debug.xcconfig */,
+				C3DBB2A2A62081AFA0AF86F5 /* Pods-JsonGood.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79F8946A1DD1AA4B00376130 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				79F894F91DD2B97500376130 /* NSDictionary+JS.h */,
+				79F894FA1DD2B97500376130 /* NSDictionary+JS.m */,
+				79F894FB1DD2B97500376130 /* NSObject+JS.h */,
+				79F894FC1DD2B97500376130 /* NSObject+JS.m */,
+				79F894D31DD1C4C200376130 /* JSUtil.h */,
+				79F894D41DD1C4C200376130 /* JSUtil.m */,
+				79F894D51DD1C4C200376130 /* JSJSONRequestEncoder.h */,
+				79F894D61DD1C4C200376130 /* JSJSONRequestEncoder.m */,
+				79F894D71DD1C4C200376130 /* JSJSONResponseDecoder.h */,
+				79F894D81DD1C4C200376130 /* JSJSONResponseDecoder.m */,
+				79F894D91DD1C4C200376130 /* JSRpcManager.h */,
+				79F894DA1DD1C4C200376130 /* JSRpcManager.m */,
+				79F894DB1DD1C4C200376130 /* JSRpcResult.h */,
+				79F894DC1DD1C4C200376130 /* JSRpcResult.m */,
+				79F8946B1DD1AA4B00376130 /* Info.plist */,
+				79F8946C1DD1AA4B00376130 /* JsonGood.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		79F894F11DD1C53700376130 /* Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				79F894F21DD1C53700376130 /* Dummy.h */,
+				79F894F31DD1C53700376130 /* Dummy.m */,
+			);
+			path = Dummy;
+			sourceTree = "<group>";
+		};
+		A2E9D358170BD32000B11F5E = {
+			isa = PBXGroup;
+			children = (
+				79F8946A1DD1AA4B00376130 /* Sources */,
+				79F894F11DD1C53700376130 /* Dummy */,
+				A2E9D362170BD32000B11F5E /* Products */,
+				AAC068C0188D1F8E001B468D /* Resources */,
+				485AD6D870395399011646DA /* Pods */,
+				053FD78E72CDF706ECABB51D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2E9D362170BD32000B11F5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9290FE661C9A9D7C00D03DAE /* JsonGood.framework */,
+				79F894F01DD1C53700376130 /* libDummy.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAC068C0188D1F8E001B468D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9290FE631C9A9D7C00D03DAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F894EA1DD1C4C200376130 /* JSRpcResult.h in Headers */,
+				79F894E61DD1C4C200376130 /* JSJSONResponseDecoder.h in Headers */,
+				79F894E81DD1C4C200376130 /* JSRpcManager.h in Headers */,
+				79F894E21DD1C4C200376130 /* JSUtil.h in Headers */,
+				79F8946E1DD1AA4B00376130 /* JsonGood.h in Headers */,
+				79F894FD1DD2B97500376130 /* NSDictionary+JS.h in Headers */,
+				79F894FF1DD2B97500376130 /* NSObject+JS.h in Headers */,
+				79F894E41DD1C4C200376130 /* JSJSONRequestEncoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79F894EF1DD1C53700376130 /* Dummy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F894F81DD1C53700376130 /* Build configuration list for PBXNativeTarget "Dummy" */;
+			buildPhases = (
+				F76E8D4FEEB15CB6A32AA7C0 /* Check Pods Manifest.lock */,
+				79F894EC1DD1C53700376130 /* Sources */,
+				79F894ED1DD1C53700376130 /* Frameworks */,
+				79F894EE1DD1C53700376130 /* CopyFiles */,
+				5F7F8B18587E766631DD5B4C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dummy;
+			productName = Dummy;
+			productReference = 79F894F01DD1C53700376130 /* libDummy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9290FE651C9A9D7C00D03DAE /* JsonGood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9290FE6B1C9A9D7D00D03DAE /* Build configuration list for PBXNativeTarget "JsonGood" */;
+			buildPhases = (
+				9B4AC59B846A0DCB6A86E388 /* Check Pods Manifest.lock */,
+				9290FE611C9A9D7C00D03DAE /* Sources */,
+				9290FE621C9A9D7C00D03DAE /* Frameworks */,
+				9290FE631C9A9D7C00D03DAE /* Headers */,
+				9290FE641C9A9D7C00D03DAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonGood;
+			productName = JsonGood;
+			productReference = 9290FE661C9A9D7C00D03DAE /* JsonGood.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2E9D359170BD32000B11F5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = jessyz;
+				TargetAttributes = {
+					79F894EF1DD1C53700376130 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					9290FE651C9A9D7C00D03DAE = {
+						CreatedOnToolsVersion = 7.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A2E9D35C170BD32000B11F5E /* Build configuration list for PBXProject "JsonGood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2E9D358170BD32000B11F5E;
+			productRefGroup = A2E9D362170BD32000B11F5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9290FE651C9A9D7C00D03DAE /* JsonGood */,
+				79F894EF1DD1C53700376130 /* Dummy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9290FE641C9A9D7C00D03DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F7F8B18587E766631DD5B4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonGood/Pods-JsonGood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B4AC59B846A0DCB6A86E388 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F76E8D4FEEB15CB6A32AA7C0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79F894EC1DD1C53700376130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F894F41DD1C53700376130 /* Dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9290FE611C9A9D7C00D03DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F894E31DD1C4C200376130 /* JSUtil.m in Sources */,
+				79F894E51DD1C4C200376130 /* JSJSONRequestEncoder.m in Sources */,
+				79F895001DD2B97500376130 /* NSObject+JS.m in Sources */,
+				79F894E91DD1C4C200376130 /* JSRpcManager.m in Sources */,
+				79F894FE1DD2B97500376130 /* NSDictionary+JS.m in Sources */,
+				79F894EB1DD1C4C200376130 /* JSRpcResult.m in Sources */,
+				79F894E71DD1C4C200376130 /* JSJSONResponseDecoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79F894F61DD1C53700376130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C2975AD304AE15140A3D37 /* Pods-JsonGood.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79F894F71DD1C53700376130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3DBB2A2A62081AFA0AF86F5 /* Pods-JsonGood.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9290FE6C1C9A9D7D00D03DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C2975AD304AE15140A3D37 /* Pods-JsonGood.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.JsonGood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(FULL_PRODUCT_NAME)/Resources";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9290FE6D1C9A9D7D00D03DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3DBB2A2A62081AFA0AF86F5 /* Pods-JsonGood.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.JsonGood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(FULL_PRODUCT_NAME)/Resources";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2E9D37C170BD32100B11F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2E9D37D170BD32100B11F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79F894F81DD1C53700376130 /* Build configuration list for PBXNativeTarget "Dummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F894F61DD1C53700376130 /* Debug */,
+				79F894F71DD1C53700376130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9290FE6B1C9A9D7D00D03DAE /* Build configuration list for PBXNativeTarget "JsonGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9290FE6C1C9A9D7D00D03DAE /* Debug */,
+				9290FE6D1C9A9D7D00D03DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2E9D35C170BD32000B11F5E /* Build configuration list for PBXProject "JsonGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E9D37C170BD32100B11F5E /* Debug */,
+				A2E9D37D170BD32100B11F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2E9D359170BD32000B11F5E /* Project object */;
+}
